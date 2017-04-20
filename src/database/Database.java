@@ -78,9 +78,11 @@ public class Database {
 		try {
 			conn = DriverManager.getConnection("jdbc:mysql://"+address+":"+port+"/"+database+"?"+"user=" + user +"&"+"password=" + pass);
 			Statement stmt=conn.createStatement();
+			/**
 			id = id +1;
 			val = "'"+id +"',"+ val;
 			System.out.println(val);
+			**/
 			stmt.execute("INSERT INTO "+tablename+" VALUES ("+val+")");
 		} catch (SQLException e) {
 			e.printStackTrace();
