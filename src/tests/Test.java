@@ -1,6 +1,8 @@
-package database;
+package tests;
 
 import database.Database;
+import database.Dateandtime;
+import database.Speed;
 
 public class Test {
 

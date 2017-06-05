@@ -1,4 +1,7 @@
-package database;
+package tests;
+
+import database.Dateandtime;
+import database.Speed;
 
 public class Timetest {
 

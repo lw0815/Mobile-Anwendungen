@@ -18,7 +18,7 @@ public class Database {
 	 * @param user -admin user
 	 * @param pass -password
 	 */
-	Database(String add,int port,String db,String user,String pass){
+	public Database(String add,int port,String db,String user,String pass){
 		this.user = user;
 		this.pass = pass;	
 		this.address = add;
