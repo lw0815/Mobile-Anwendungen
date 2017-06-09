@@ -32,6 +32,8 @@ public class Main extends Application {
 		Label password = new Label("Passwort:");
 		Hyperlink registration = new Hyperlink("Registrieren");
 		
+		//
+		
 		FlowPane flpane1 = new FlowPane();
 		FlowPane flpane2 = new FlowPane();
 		FlowPane flpane3 = new FlowPane();
